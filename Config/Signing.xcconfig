@@ -1,0 +1,10 @@
+// Signing settings shared by Xcode and scripts/install.sh.
+//
+// Don't put your team here — scripts/install.sh writes it to Config/Local.xcconfig
+// (auto-detected from your Apple Development certificate), which is included below
+// and kept out of version control.
+
+DEVELOPMENT_TEAM =
+PRODUCT_BUNDLE_IDENTIFIER = com.dosely.app
+
+#include? "Local.xcconfig"
